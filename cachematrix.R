@@ -11,7 +11,7 @@
 #defined with makeCacheMatrix
 
 ## Write a short comment describing this function
-#define the special "matrix"
+#the function makeCacheMatrix defines the special "matrix"
 
 makeCacheMatrix <- function(x = matrix()) {
   m <- NULL
@@ -29,7 +29,7 @@ makeCacheMatrix <- function(x = matrix()) {
 
 
 ## Write a short comment describing this function
-# This function computes the inverse of a matrix the first time, 
+# The function cacheSolve computes the inverse of a matrix the first time, 
 # then in the next calls it reuses the previous inverse, as long as the data is the same
 
 cacheSolve <- function(x, ...) {
